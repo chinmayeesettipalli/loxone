@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+		<link rel="stylesheet" type="text/css" href="Miniserver.css">
+	<section class="form">
+    
+    <form action="/submit-form" method="post">
+		<label for="Miniserver Address">Miniserver Address:</label>
+		<input type="integer" name="Miniserver" id="Miniserver" required><br><br>
+		<label for="Lighting Controller Id">Lighting Controller Id:</label>
+		<input type="integer" name="Id" id="Id" required><br><br>
+		<form action="/upload" method="post" enctype="multipart/form-data">
+			<label for="fileUpload">Upload a tile icon</label>
+			<input type="file" id="fileUpload" accept=".pdf,.doc,.png,.jpg"><br>
+			<input type="submit" value="Upload">
+		</form><br>
+		<input type="submit" value="Submit">
+	</form>
+	</section>
+    </html>

@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+	padding: 0px;
+	background-image: url(	https://www.loxone.com/nlnl/wp-content/uploads/sites/9/2023/08/level-1_optimized.png);
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;/* Adjusted property for better image sizing */
+
+    
+    
+    
+}
+.form{
+    padding-right: 10px;
+    font-size: 20px;
+    padding-left: 95px;
+    padding-top: 80px;
+    color: black;
+    position: absolute;
+    transform: translate(-50px,-50px);
+    
+
+}
